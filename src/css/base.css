@@ -42,3 +42,69 @@ body {
 .gallery-link:hover .gallery-image {
   transform: scale(1.05);
 }
+
+.feedback-form {
+  width: 408px;
+  margin: 24px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.feedback-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 8px;
+
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+  width: 100%;
+  padding: 8px 16px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  outline: none;
+
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.feedback-form input:hover,
+.feedback-form textarea:hover {
+  border-color: #000;
+}
+
+.feedback-form input:focus,
+.feedback-form textarea:focus {
+  border-color: #808080;
+}
+
+.feedback-form textarea {
+  resize: none;
+  margin-bottom: 16px;
+}
+
+.feedback-form button {
+  align-self: flex-start;
+  min-width: 95px;
+  height: 40px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #4e75ff;
+  color: #fff;
+  cursor: pointer;
+
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.feedback-form button:hover,
+.feedback-form button:focus {
+  background-color: #6c8cff;
+}
